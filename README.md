@@ -84,7 +84,7 @@ Stock quantity updates occur in:
 
 2 - Cache invalidated on writes
 
-
+####################################################################################################
 📡 API Endpoints
 Method	Endpoint	Description
 GET	/api/products/{id}	Fetch product and stock
