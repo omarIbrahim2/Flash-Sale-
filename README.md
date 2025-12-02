@@ -58,6 +58,9 @@ php artisan serve
 Run Queue Worker
 php artisan queue:work
 
+Run tests 
+php artisan test
+
 
 🧩 System Invariants
 Stock quantity updates occur in:
