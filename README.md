@@ -12,6 +12,12 @@ A Laravel 12 system implementing **atomic stock holds**, **race-condition safety
 ![Queue](https://img.shields.io/badge/Queue-Worker-green)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
+
+## Design
+
+Below is the visual design for the flash sale checkout system:
+
+![Flash Sale Checkout Design](design.PNG)
 ---
 
 # 🧰 Tech Stack
