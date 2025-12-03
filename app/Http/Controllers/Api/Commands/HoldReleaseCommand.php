@@ -7,7 +7,7 @@ class HoldReleaseCommand
     public function __invoke($dto, \Closure $next)
     {
         $dto->hold->update([
-            'expires_at' => now()->addMinutes(2),
+            'expires_at' => now()->subMinutes(2),
         ]);
 
         return $next($dto);
